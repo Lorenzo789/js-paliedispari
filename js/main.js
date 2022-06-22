@@ -54,6 +54,7 @@ function wordReverse (word) {
 
 // chiedo all'utente di scegliere tra pari e dispari
 const userChoice = prompt('Scegli pari o Dispari')
+console.log(userChoice);
 
 // chiedo all'utente di scrivere un numero da 1 a 5
 const userNumber = parseInt( prompt ('Inserisci un numero da 1 a 5') );
@@ -72,12 +73,13 @@ const determinesEvenOrOdd = evenOrOdd(sum);
 
 if (determinesEvenOrOdd % 2 == 0) {
     
-    console.log()
+    console.log('Chi a scelto pari ha vinto');
+
+} else if (determinesEvenOrOdd % 2 !== 0){
+
+    console.log('Chi ha scelto dispari ha vinto');
 
 }
-
-
-
 
 
 // * FUNCTION * \\

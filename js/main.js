@@ -26,3 +26,14 @@ while ( lengthWord >= 0 ) {
 }
 
 console.log(reverseWord);
+
+// creo un if per verificare che la parola sia palindroma
+if (userWord == reverseWord) {
+    
+    console.log('la parola è palindroma')
+
+} else {
+
+    console.log('la parola non è palindroma')
+
+}
